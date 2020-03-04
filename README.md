@@ -1,4 +1,6 @@
-# Android build container for GitHub Actions
+# [DEPRECATED] Android build container for GitHub Actions
+
+**Deprecated**: Since this action's inception, GitHub Actions has grown by leaps and bounds and now it is possible to build Android apps without this image. Due to this, I am electing to deprecate setup-android and have submitted PRs to active projects that were using it, removing their use of setup-android.
 
 This Action lets you build Android apps in an Android SDK environment with nearly everything from the SDK packages list, already installed. If you find something missing, please start an issue here so that I can fix it for you.
 
